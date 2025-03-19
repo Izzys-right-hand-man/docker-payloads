@@ -45,7 +45,7 @@ def run():
       server_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
   
       # Bind the socket to all interfaces on port 10000
-      server_address = ('', prt)  # Empty string for all interfaces
+      server_address = ('', int(prt))  # Empty string for all interfaces
       server_socket.bind(server_address)
   
       # Listen for incoming connections
@@ -74,3 +74,6 @@ def run():
   
   
   start_server()
+
+run()
+  
