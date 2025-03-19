@@ -1,2 +1,4 @@
 # docker-payloads
-Docker payloads that will provide you with a reverse shell.
+  Gandalf is a wizard that provides many services.
+
+  
