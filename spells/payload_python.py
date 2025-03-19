@@ -8,7 +8,7 @@ import socket
 addr = input("Your listening IPv4 address (ex: 10.10.10.10): ")
 prt = input("\n Target port enter for default(10000): ")
 name = input("Payload name")
-
+tm = 0
 file_path = name + ".py"
 if prt == "":
   prt = 10000
@@ -51,6 +51,10 @@ def start_server():
     # Listen for incoming connections
     server_socket.listen(5)
     print("Listening on port 10000...")
+    time.sleep(1)
+    tm += 1 
+    print(tm, "seconds elapsed")
+    
 
     while True:
         # Wait for a connection
