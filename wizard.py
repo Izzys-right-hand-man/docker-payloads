@@ -10,7 +10,7 @@ addr = input("Target IPv4 address (ex: 10.10.10.10): ")
 prt = input("\n Target port enter for default(10000): ")
 name = input("Payload name")
 
-file_path = name + ".py"
+file_path = name + ".txt"
 if prt == "":
   prt = 10000
 
