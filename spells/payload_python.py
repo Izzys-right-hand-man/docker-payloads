@@ -5,7 +5,7 @@ import random
 import socket
 
 
-addr = input("Target IPv4 address (ex: 10.10.10.10): ")
+addr = input("Your listening IPv4 address (ex: 10.10.10.10): ")
 prt = input("\n Target port enter for default(10000): ")
 name = input("Payload name")
 
