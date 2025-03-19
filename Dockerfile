@@ -1,4 +1,8 @@
-#innitialize the payload
+#istalling dependencies
 
-RUN chmod +x mac_payloads.sh
+FROM ubuntu:latest
+
+RUN apt install python3-socket
+RUN apt install 
+
 
