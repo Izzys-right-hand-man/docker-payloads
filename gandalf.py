@@ -29,6 +29,8 @@ while run == True:
     print(isfile(join("/spells", f))
   for x in load_names:
     if terminal == x:
-              python_payload.run()
+                with open("python_paylaod.py", "r") as f:
+                            code = f.read()
+                exec(code)
               
               
