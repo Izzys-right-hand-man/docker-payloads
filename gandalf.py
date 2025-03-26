@@ -30,13 +30,12 @@ G   A   N   D   A   L   F
 print(banner)
 
 while run == True:
-  terminal = input("$> ")
-  if terminal == "list spells":
-    print(isfile(join("/spells", f))
-  for x in load_names:
-    if terminal == x:
-                with open("python_paylaod.py", "r") as f:
-                            code = f.read()
-                exec(code)
+            terminal = input("$> ")
+            if terminal == "list spells":
+                        print(isfile(join("/spells", f))
+            for x in load_names:
+                        if terminal == x:
+                                    run()
+            
               
               
