@@ -35,7 +35,7 @@ while run == True:
                         print(isfile(join("/spells", f))
             for x in load_names:
                         if terminal == x:
-                                    run()
+                                    payload_run()
             
               
               
