@@ -4,7 +4,7 @@ import time
 import random
 import socket
 
-def run():
+def payload_run():
   addr = input("Your listening IPv4 address (ex: 10.10.10.10): ")
   prt = input("\n Target port enter for default(10000): ")
   name = input("Payload name")
